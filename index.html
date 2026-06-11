@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<html lang="en">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<head>
+  <title>Kindred Connects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- stylesheets *******************************************-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
+</head>
+
+<!--*************************************************************
+  BODY
+**************************************************************-->
+
+
+<body>
+  <h1>-Kindred Connects-</h1>
+  <p>Rent a friend! Please fill out the application.</p>
+  <form onsubmit="return false;">
+    <label for="formName">Name:</label>
+    <input type = "text" id="nameField" required name="formName" placeholder="Name"><br><br>
+
+    <label for="formName">Age:</label>
+    <input type = "text" id="ageField" required name="formName" placeholder="Age (14-17)" min="14" max="17"><br><br>
+    
+    <label for="formName">Money:</label>
+    <input type = "text" id="moneyField" required name="formName" min="0" max="1000"><br><br>
+    <label id="changeField">
+
+      <label for="formName">On a scale of 0-3, how much do you like chocolate?</label>
+    <input type = "text" id="chocolateField" required name="formName" placeholder="0-3" min="0" max="3">
+    <input type = "submit" onClick=getFormInput()>
+    <br>
+    <br>
+
+</form>
+<img src="campbell.jpg" alt="campbell" width="300" height="360">
+<img src="bird.jpg" alt="ashley" width="290" height="360">
+<img src="harold.jpg" alt="harold" width="290" height="360">
+<img src="stiffy.jpg" alt="stephan" width="290" height="360">
+
+<br>
+
+
+<form onsubmit="return false;">
+    
+<button onClick="addCampbell()">Add Campbell</button>
+<button onClick="addAshley()">Add Ashley</button>
+<button onClick="addHarold()">Add Harold</button>
+<button onClick="addStephan()">Add Stephan</button>
+<button onClick="showCart()">Show Cart</button>
+
+</form>
+
+
+  <div id="spaceForJavaScriptOutput">
 
   
-<script src="script.js"></script>
+
+  </div>
+
+
+
+<script src="../script.js"></script>
 </body>
+
 </html>
-
-
+<!--*************************************************************
+  END OF T18_VALIDATION.HTML
+**************************************************************-->
