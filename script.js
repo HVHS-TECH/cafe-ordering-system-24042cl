@@ -22,7 +22,37 @@ displayWelcome(3.68 , 5.5 , 6.7, 5.05);
 /****************************
 Functions
 ****************************/
-
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 3fr 3fr;
+  gap: 1px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 5px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+</style>
+</head>
 //shopping list
 function displayWelcome(campbell, ashley, harold, stephan){
     OUTPUT.innerHTML += "<p>Campbell: $"+ campbell +"</p>";
