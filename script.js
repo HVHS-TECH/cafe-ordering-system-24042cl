@@ -23,6 +23,7 @@ displayWelcome(3.68 , 5.5 , 6.7, 5.05);
 Functions
 ****************************/
 
+
 //shopping list
 function displayWelcome(campbell, ashley, harold, stephan){
     OUTPUT.innerHTML += "<p>Campbell: $"+ campbell +"</p>";
