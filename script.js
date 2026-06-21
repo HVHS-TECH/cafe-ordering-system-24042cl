@@ -18,7 +18,7 @@ let stephan
 Main code
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-displayWelcome(4.01 , 5.5 , 6.7, 4);
+displayWelcome(3.68 , 5.5 , 6.7, 5.05);
 /****************************
 Functions
 ****************************/
@@ -95,7 +95,7 @@ if (MONEY_FIELD.checkValidity()=== false)  {
 money = MONEY_FIELD.value;
  OUTPUT.innerHTML += "<p> You have "+money+" dollars"+"</p>"
 }
- displayWelcome(4 , 3 , 2.50);
+ displayWelcome(3.68 , 5.5 , 6.7, 5.05);
 
     OUTPUT.innerHTML += "<p>a chocolate bar costs $4.</p>"
  
@@ -109,10 +109,10 @@ const CHANGE_FIELD = document.getElementById("changeField");
  CHANGE_FIELD.value = change;
  OUTPUT.innerHTML += "<p>Your change is $"+change+"</p>"
 
- const CHOCOLATE_FIELD = document.getElementById("chocolateField");
- let chocolateRating = ["You loathe chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
+ const WEEK_FIELD = document.getElementById("weekField");
+ let weekDay = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
- let choice = Number(CHOCOLATE_FIELD.value);
+ let choice = Number(WEEK_FIELD.value);
 
 
  if (age < 20){
