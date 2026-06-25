@@ -100,6 +100,16 @@ money = MONEY_FIELD.value;
 
     OUTPUT.innerHTML += "<p>a chocolate bar costs $4.</p>"
  
+if (money >= 3.68){
+    OUTPUT.innerHTML += "<p>you CAN afford Campbell.</p>"
+}else{
+    OUTPUT.innerHTML += "<p>you CAN'T afford Campbell.</p>"
+}
+if (money >= 6.7){
+    OUTPUT.innerHTML += "<p>you CAN afford Ashley.</p>"
+}else{
+    OUTPUT.innerHTML += "<p>you CAN'T afford Ashley.</p>"
+}
 if (money >= 4){
     OUTPUT.innerHTML += "<p>you CAN afford a chocolate bar.</p>"
 }else{
