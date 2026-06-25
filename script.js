@@ -32,19 +32,19 @@ function displayWelcome(campbell, ashley, harold, stephan){
     OUTPUT.innerHTML += "<p>Stephan: $"+ stephan +" </p>";
 }
 function addCampbell(){
-shoppingCart.push("campbell");
+shoppingCart.push("Campbell");
     OUTPUT.innerHTML += "Added Campbell to cart<br>";
 }
 function addAshley(){
-shoppingCart.push("ashley");
+shoppingCart.push("Ashley");
     OUTPUT.innerHTML += "Added Ashley to cart<br>";
 }
 function addHarold(){
-shoppingCart.push("harold");
+shoppingCart.push("Harold");
     OUTPUT.innerHTML += "Added Harold to cart<br>";
 }
 function addStephan(){
-shoppingCart.push("stephan");
+shoppingCart.push("Stephan");
     OUTPUT.innerHTML += "Added Stephan to cart<br>";
 }
 function showCart(){
