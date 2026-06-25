@@ -98,28 +98,28 @@ money = MONEY_FIELD.value;
 }
  displayWelcome(3.68 , 5.5 , 6.7, 5.05);
 
-    OUTPUT.innerHTML += "<p>a chocolate bar costs $4.</p>"
+    OUTPUT.innerHTML += "<p>A chocolate bar costs $4.</p>"
  
 if (money >= 3.68){
-    OUTPUT.innerHTML += "<p>you CAN afford Campbell.</p>"
+    OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
 }else{
-    OUTPUT.innerHTML += "<p>you CAN'T afford Campbell.</p>"
+    OUTPUT.innerHTML += "<p>You CAN'T afford Campbell.</p>"
 }
 if(shoppingCart)
 if (money >= 5.5){
-    OUTPUT.innerHTML += "<p>you CAN afford Ashley.</p>"
+    OUTPUT.innerHTML += "<p>You CAN afford Ashley.</p>"
 }else{
-    OUTPUT.innerHTML += "<p>you CAN'T afford Ashley.</p>"
+    OUTPUT.innerHTML += "<p>You CAN'T afford Ashley.</p>"
 }
 if (money >= 6.7){
-    OUTPUT.innerHTML += "<p>you CAN afford Harold.</p>"
+    OUTPUT.innerHTML += "<p>You CAN afford Harold.</p>"
 }else{
-    OUTPUT.innerHTML += "<p>you CAN'T afford Harold.</p>"
+    OUTPUT.innerHTML += "<p>You CAN'T afford Harold.</p>"
 }
 if (money >= 5.05){
-    OUTPUT.innerHTML += "<p>you CAN afford Stephan.</p>"
+    OUTPUT.innerHTML += "<p>You CAN afford Stephan.</p>"
 }else{
-    OUTPUT.innerHTML += "<p>you CAN'T afford Stephan.</p>"
+    OUTPUT.innerHTML += "<p>You CAN'T afford Stephan.</p>"
 }
 const CHANGE_FIELD = document.getElementById("changeField");
  change = money - 4;
