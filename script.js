@@ -91,7 +91,7 @@ if (MONEY_FIELD.value < 0){
     OUTPUT.innerHTML += "congrats on being a millionaire!!"
 }
 if (MONEY_FIELD.checkValidity()=== false)  {
-    OUTPUT.innerHTML = "please fill out the form correctly"
+    OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 money = MONEY_FIELD.value;
  OUTPUT.innerHTML += "<p> You have "+money+" dollars"+"</p>"
