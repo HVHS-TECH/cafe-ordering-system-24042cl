@@ -105,15 +105,20 @@ if (money >= 3.68){
 }else{
     OUTPUT.innerHTML += "<p>you CAN'T afford Campbell.</p>"
 }
-if (money >= 6.7){
+if (money >= 5.5){
     OUTPUT.innerHTML += "<p>you CAN afford Ashley.</p>"
 }else{
     OUTPUT.innerHTML += "<p>you CAN'T afford Ashley.</p>"
 }
-if (money >= 4){
-    OUTPUT.innerHTML += "<p>you CAN afford a chocolate bar.</p>"
+if (money >= 6.7){
+    OUTPUT.innerHTML += "<p>you CAN afford Harold.</p>"
 }else{
-    OUTPUT.innerHTML += "<p>you CAN'T afford a chocolate bar.</p>"
+    OUTPUT.innerHTML += "<p>you CAN'T afford Harold.</p>"
+}
+if (money >= 5.05){
+    OUTPUT.innerHTML += "<p>you CAN afford Stephan.</p>"
+}else{
+    OUTPUT.innerHTML += "<p>you CAN'T afford Stephan.</p>"
 }
 const CHANGE_FIELD = document.getElementById("changeField");
  change = money - 4;
