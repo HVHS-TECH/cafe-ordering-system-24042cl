@@ -65,16 +65,16 @@ userName = NAME_FIELD.value;
 }
 const AGE_FIELD = document.getElementById("ageField");
 if (AGE_FIELD.value < 0){
-    OUTPUT.innerHTML = "<p>how are you alive??</p>"
+    OUTPUT.innerHTML = "<p>How are you alive??</p>"
 } else if (AGE_FIELD.value > 100){
-    OUTPUT.innerHTML += "you are probably not alive anymore??"
+    OUTPUT.innerHTML += "You are probably not alive anymore??"
 } else if (AGE_FIELD.value == 0){
-    OUTPUT.innerHTML += "you are a newborn??"
+    OUTPUT.innerHTML += "You are a newborn??"
 } else if (AGE_FIELD.value == 100){
-    OUTPUT.innerHTML += "congrats on being alive for a century!!"
+    OUTPUT.innerHTML += "Congrats on being alive for a century!!"
 }
 if (AGE_FIELD.checkValidity()=== false)  {
-    OUTPUT.innerHTML = "please fill out the form correctly"
+    OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 age = AGE_FIELD.value;
  OUTPUT.innerHTML += "<p> You are "+age+" years old"+"</p>"
@@ -82,13 +82,13 @@ age = AGE_FIELD.value;
  
  const MONEY_FIELD = document.getElementById("moneyField");
 if (MONEY_FIELD.value < 0){
-    OUTPUT.innerHTML += "you can't have negative money!!"
+    OUTPUT.innerHTML += "You can't have negative money!!"
 } else if (MONEY_FIELD.value > 1000){
-    OUTPUT.innerHTML += "you are a millionaire!!"
+    OUTPUT.innerHTML += "You are a millionaire!!"
 } else if (MONEY_FIELD.value == 0){
-    OUTPUT.innerHTML += "you are broke!!"
+    OUTPUT.innerHTML += "You are broke!!"
 } else if (MONEY_FIELD.value == 1000){
-    OUTPUT.innerHTML += "congrats on being a millionaire!!"
+    OUTPUT.innerHTML += "Congrats on being a millionaire!!"
 }
 if (MONEY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
