@@ -105,6 +105,7 @@ if (money >= 3.68){
 }else{
     OUTPUT.innerHTML += "<p>you CAN'T afford Campbell.</p>"
 }
+if(shoppingCart)
 if (money >= 5.5){
     OUTPUT.innerHTML += "<p>you CAN afford Ashley.</p>"
 }else{
