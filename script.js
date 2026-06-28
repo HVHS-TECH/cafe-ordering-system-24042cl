@@ -97,8 +97,6 @@ money = MONEY_FIELD.value;
  OUTPUT.innerHTML += "<p> You have "+money+" dollars"+"</p>"
 }
  displayWelcome(3.68 , 5.5 , 6.7, 5.05);
-
-    OUTPUT.innerHTML += "<p>A chocolate bar costs $4.</p>"
  
 if (money >= 3.68){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
