@@ -1,5 +1,16 @@
 .item1 {
-    background-color: aliceblue;
+    background-color: rgb(202, 158, 121);
      padding: 14px 16px;
-     opacity: 0.5;
+}
+.item2 {
+    background-color: rgb(202, 158, 121);
+     padding: 14px 16px;
+}
+.item3 {
+    background-color: rgb(202, 158, 121);
+     padding: 14px 16px;
+}
+.item4 {
+    background-color: rgb(202, 158, 121);
+     padding: 14px 16px;
 }
