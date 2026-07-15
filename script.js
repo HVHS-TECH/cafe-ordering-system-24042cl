@@ -39,18 +39,7 @@ function addCampbell(){
 shoppingCart.push("items[0]");
     OUTPUT.innerHTML += "Added "+items[0]+" to cart<br>";
 }
-function addAshley(){
-shoppingCart.push("Ashley");
-    OUTPUT.innerHTML += "Added Ashley to cart<br>";
-}
-function addHarold(){
-shoppingCart.push("Harold");
-    OUTPUT.innerHTML += "Added Harold to cart<br>";
-}
-function addStephan(){
-shoppingCart.push("Stephan");
-    OUTPUT.innerHTML += "Added Stephan to cart<br>";
-}
+
 function showCart(){
 
     OUTPUT.innerHTML += "Cart Contents:<br>";
