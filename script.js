@@ -28,7 +28,7 @@ items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
 function addProduct_0(){
     productNumber = 0
-shoppingCart.push("items[productNumber]");
+shoppingCart.push("items[productNumber]","prices[productNumber]");
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 
