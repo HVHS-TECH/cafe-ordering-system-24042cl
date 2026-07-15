@@ -53,8 +53,8 @@ function showCart(){
  i=i+1;
 }
 }
-cartValue = 0;
 function cartTotal(){
+    cartValue = 0;
 
     OUTPUT.innerHTML += "Total Cost of Items in Cart:<br>";
 
@@ -62,7 +62,8 @@ function cartTotal(){
         cartTotal = cartTotal + shoppingCart[i]
  i=i+1;
 }
- OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
+ OUTPUT.innerHTML += "$ "+cartTotal+"<br>";
+}
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
