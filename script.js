@@ -39,22 +39,22 @@ prices = [3.68, 5.50, 6.70, 5.05]
 function addProduct_0(){
     productNumber = 0
 shoppingCart.push("items[productNumber]");
-    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
+    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_1(){
     productNumber = 1
 shoppingCart.push("items[productNumber]");
-    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
+    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_2(){
     productNumber = 2
 shoppingCart.push("items[productNumber]");
-    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
+    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_3(){
     productNumber = 3
 shoppingCart.push("items[productNumber]");
-    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
+    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function showCart(){
 
