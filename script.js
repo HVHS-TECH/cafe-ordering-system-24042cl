@@ -54,6 +54,7 @@ function showCart(){
     for (let i=0; i < shoppingCart.length / 2; i++){
     OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
   }
+}
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
