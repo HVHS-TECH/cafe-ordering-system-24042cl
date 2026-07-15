@@ -132,7 +132,7 @@ const CHANGE_FIELD = document.getElementById("changeField");
 cartTotal
  change = money - cartValue;
  
- const formattedChange = new Intl.NumberFormat('en-US', {
+ const formattedChange = newIntl.NumberFormat('en-US', {
   minimumFractionDigits: 2,
   maximumFractionDigits: 2
 }).format(change);
