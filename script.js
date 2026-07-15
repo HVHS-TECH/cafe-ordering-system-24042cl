@@ -113,17 +113,17 @@ if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN'T afford Campbell.</p>"
 }
 if(shoppingCart)
-if (money >= 5.5){
+if (money >= prices[1]){
     OUTPUT.innerHTML += "<p>You CAN afford Ashley.</p>"
 }else{
     OUTPUT.innerHTML += "<p>You CAN'T afford Ashley.</p>"
 }
-if (money >= 6.7){
+if (money >= prices[2]){
     OUTPUT.innerHTML += "<p>You CAN afford Harold.</p>"
 }else{
     OUTPUT.innerHTML += "<p>You CAN'T afford Harold.</p>"
 }
-if (money >= 5.05){
+if (money >= prices[3]){
     OUTPUT.innerHTML += "<p>You CAN afford Stephan.</p>"
 }else{
     OUTPUT.innerHTML += "<p>You CAN'T afford Stephan.</p>"
