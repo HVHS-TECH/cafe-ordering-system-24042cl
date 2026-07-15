@@ -15,6 +15,7 @@ let harold
 let stephan
 let prices = [];
 let items = [];
+let productNumber
 
 /****************************
 Main code
@@ -35,21 +36,25 @@ function displayWelcome(campbell, ashley, harold, stephan){
 }
 items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
-function addCampbell(){
-shoppingCart.push("items[0]");
-    OUTPUT.innerHTML += "Added "+items[0]+" to cart<br>";
+function addProduct_0(){
+    productNumber = 0
+shoppingCart.push("items[productNumber]");
+    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
 }
-function addAshley(){
-shoppingCart.push("Ashley");
-    OUTPUT.innerHTML += "Added Ashley to cart<br>";
+function addProduct_1(){
+    productNumber = 1
+shoppingCart.push("items[productNumber]");
+    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
 }
-function addHarold(){
-shoppingCart.push("Harold");
-    OUTPUT.innerHTML += "Added Harold to cart<br>";
+function addProduct_2(){
+    productNumber = 2
+shoppingCart.push("items[productNumber]");
+    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
 }
-function addStephan(){
-shoppingCart.push("Stephan");
-    OUTPUT.innerHTML += "Added Stephan to cart<br>";
+function addProduct_3(){
+    productNumber = 3
+shoppingCart.push("items[productNumber]");
+    OUTPUT.innerHTML += "Added "+items[product]+" to cart<br>";
 }
 function showCart(){
 
