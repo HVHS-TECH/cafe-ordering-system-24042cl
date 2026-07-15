@@ -33,7 +33,7 @@ function displayWelcome(campbell, ashley, harold, stephan){
     OUTPUT.innerHTML += "<p>Harold: $"+ harold +" </p>";
     OUTPUT.innerHTML += "<p>Stephan: $"+ stephan +" </p>";
 }
-items = [campbell, ashley, harold, stephan]
+items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
 function addCampbell(){
 shoppingCart.push("Campbell");
