@@ -129,7 +129,7 @@ if (money >= prices[3]){
     OUTPUT.innerHTML += "<p>You CAN'T afford Stephan.</p>"
 }
 const CHANGE_FIELD = document.getElementById("changeField");
- change = money - 4;
+ change = money - cartTotal;
  CHANGE_FIELD.value = change;
  OUTPUT.innerHTML += "<p>Your change is $"+change+"</p>"
 
