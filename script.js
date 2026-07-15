@@ -129,12 +129,13 @@ if (money >= prices[3]){
     OUTPUT.innerHTML += "<p>You CAN'T afford Stephan.</p>"
 }
 const CHANGE_FIELD = document.getElementById("changeField");
+cartValue 
  change = money - cartTotal;
  CHANGE_FIELD.value = change;
  OUTPUT.innerHTML += "<p>Your change is $"+change+"</p>"
 
  const WEEK_FIELD = document.getElementById("weekField");
- let weekDay = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+ let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 
  let choice = Number(WEEK_FIELD.value);
 
