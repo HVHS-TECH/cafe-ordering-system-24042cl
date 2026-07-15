@@ -59,9 +59,10 @@ function cartTotal(){
     OUTPUT.innerHTML += "Total Cost of Items in Cart:<br>";
 
     for (let i=1; i < shoppingCart.length; i++){
-    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
+        cartTotal = cartTotal + shoppingCart[i]
  i=i+1;
 }
+ OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
