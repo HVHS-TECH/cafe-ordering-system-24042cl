@@ -31,6 +31,7 @@ function addProduct_0(){
 shoppingCart.push("items[productNumber]");
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
+
 function addProduct_1(){
     productNumber = 1
 shoppingCart.push("items[productNumber]");

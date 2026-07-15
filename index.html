@@ -36,14 +36,18 @@ form{
     background-attachment: fixed;
 }
 </style>
-
+<script>
+  // Defining an array of strings
+  const items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"];
+  const prices = [3.68, 5.50, 6.70, 5.05];
+</script>
 <body>
   <h1>-Kindred Connects-</h1>
   <p>Rent a friend! Please fill out the application.</p>
   <div class="grid-container">
  <div class="item1">
   <img src="campbell.jpg" alt="campbell" width="420" height="490">
-  <h2>Campbell Turner: $3.68</h2><p>A very polite young man who loves all things The Smiths. He is inflatuated with cooking, underwater hockey, and even comuting to the gym.</p> 
+<h2>+items[0]+": $" + prices[0]</h2><p>A very polite young man who loves all things The Smiths. He is inflatuated with cooking, underwater hockey, and even comuting to the gym.</p> 
 <button onClick="addCampbell()">Add Campbell</button> 
 </div>
    <div class="item2">
