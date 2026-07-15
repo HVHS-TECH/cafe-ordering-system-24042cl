@@ -21,19 +21,9 @@ let productNumber
 Main code
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-displayWelcome(3.68 , 5.5 , 6.7, 5.05);
 /****************************
 Functions
 ****************************/
-
-
-//shopping list
-function displayWelcome(campbell, ashley, harold, stephan){
-    OUTPUT.innerHTML += "<p>Campbell: $"+ campbell +"</p>";
-    OUTPUT.innerHTML += "<p>Ashley: $"+ ashley +" </p>";
-    OUTPUT.innerHTML += "<p>Harold: $"+ harold +" </p>";
-    OUTPUT.innerHTML += "<p>Stephan: $"+ stephan +" </p>";
-}
 items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
 function addProduct_0(){
