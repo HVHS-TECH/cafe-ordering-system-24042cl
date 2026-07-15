@@ -131,7 +131,6 @@ if (money >= prices[3]){
 const CHANGE_FIELD = document.getElementById("changeField");
 cartTotal
  change = money - cartValue;
- CHANGE_FIELD.value = change;
  OUTPUT.innerHTML += "<p>Your change is $"+change+"</p>"
 
  const WEEK_FIELD = document.getElementById("weekField");
