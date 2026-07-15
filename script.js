@@ -13,8 +13,8 @@ let campbell
 let ashley
 let harold
 let stephan
-let price
-let item = 
+let price = [];
+let item = [];
 
 /****************************
 Main code
