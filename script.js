@@ -131,11 +131,13 @@ if (money >= prices[3]){
 const CHANGE_FIELD = document.getElementById("changeField");
 cartTotal
  change = money - cartValue;
- OUTPUT.innerHTML += "<p>Your change is $"+formatedChange+"</p>"
-const formattedChange = new Intl.NumberFormat('en-US', {
+ 
+ const formattedChange = new Intl.NumberFormat('en-US', {
   minimumFractionDigits: 2,
   maximumFractionDigits: 2
 }).format(change);
+
+ OUTPUT.innerHTML += "<p>Your change is $"+formatedChange+"</p>"
  const WEEK_FIELD = document.getElementById("weekField");
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 
