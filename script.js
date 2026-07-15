@@ -13,6 +13,8 @@ let campbell
 let ashley
 let harold
 let stephan
+let price
+let item
 
 /****************************
 Main code
@@ -96,6 +98,7 @@ if (MONEY_FIELD.checkValidity()=== false)  {
 money = MONEY_FIELD.value;
  OUTPUT.innerHTML += "<p> You have "+money+" dollars"+"</p>"
 }
+
  displayWelcome(3.68 , 5.5 , 6.7, 5.05);
  
 if (money >= 3.68){
