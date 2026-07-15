@@ -34,17 +34,17 @@ shoppingCart.push("items[productNumber]","prices[productNumber]");
 
 function addProduct_1(){
     productNumber = 1
-shoppingCart.push("items[productNumber]");
+shoppingCart.push(items[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_2(){
     productNumber = 2
-shoppingCart.push("items[productNumber]");
+shoppingCart.push(items[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_3(){
     productNumber = 3
-shoppingCart.push("items[productNumber]");
+shoppingCart.push(items[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function showCart(){
