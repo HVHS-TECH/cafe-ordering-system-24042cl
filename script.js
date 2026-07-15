@@ -106,10 +106,8 @@ if (MONEY_FIELD.checkValidity()=== false)  {
 money = MONEY_FIELD.value;
  OUTPUT.innerHTML += "<p> You have "+money+" dollars"+"</p>"
 }
-
- displayWelcome(3.68 , 5.5 , 6.7, 5.05);
  
-if (money >= 3.68){
+if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
 }else{
     OUTPUT.innerHTML += "<p>You CAN'T afford Campbell.</p>"
