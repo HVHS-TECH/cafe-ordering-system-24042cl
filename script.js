@@ -52,7 +52,7 @@ function showCart(){
     OUTPUT.innerHTML += "Cart Contents:<br>";
 
     for (let i=0; i < shoppingCart.length; i++){
-    OUTPUT.innerHTML += shoppingCart[i]+"<br>";
+    OUTPUT.innerHTML += shoppingCart[i]+" $"+shoppingCart[i+1]+"<br>";
   }
 }
 function getFormInput(){
