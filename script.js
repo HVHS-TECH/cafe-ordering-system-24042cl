@@ -14,7 +14,7 @@ let ashley
 let harold
 let stephan
 let price = [];
-let item = [];
+let items = [];
 
 /****************************
 Main code
