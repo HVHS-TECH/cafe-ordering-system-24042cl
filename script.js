@@ -132,8 +132,8 @@ const CHANGE_FIELD = document.getElementById("changeField");
 
 cartTotal()
  change = money - cartValue;
- const num=change;
- OUTPUT.innerHTML += "<p>Your change is $"+num.toFixed(2)+"</p>"
+
+ OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"
 
 
  const WEEK_FIELD = document.getElementById("weekField");
