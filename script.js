@@ -131,7 +131,7 @@ if (money >= prices[3]){
 const CHANGE_FIELD = document.getElementById("changeField");
 cartTotal
  change = money - cartValue;
- OUTPUT.innerHTML += "<p>Your change is $"+change+"</p>"
+ OUTPUT.innerHTML += "<p>Your change is $"+change(num.toFixed(2))+"</p>"
 
  const WEEK_FIELD = document.getElementById("weekField");
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
