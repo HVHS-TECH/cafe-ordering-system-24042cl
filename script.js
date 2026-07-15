@@ -59,10 +59,10 @@ function cartTotal(){
     OUTPUT.innerHTML += "Total Cost of Items in Cart:<br>";
 
     for (let i=1; i < shoppingCart.length; i++){
-        cartTotal = cartTotal + shoppingCart[i]
+        cartValue = cartValue + shoppingCart[i]
  i=i+1;
 }
- OUTPUT.innerHTML += "$ "+cartTotal+"<br>";
+ OUTPUT.innerHTML += "$ "+cartValue+"<br>";
 }
 
 function getFormInput(){
