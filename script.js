@@ -13,7 +13,7 @@ let campbell
 let ashley
 let harold
 let stephan
-let price = [];
+let prices = [];
 let items = [];
 
 /****************************
@@ -33,7 +33,8 @@ function displayWelcome(campbell, ashley, harold, stephan){
     OUTPUT.innerHTML += "<p>Harold: $"+ harold +" </p>";
     OUTPUT.innerHTML += "<p>Stephan: $"+ stephan +" </p>";
 }
-items = 
+items = [campbell, ashley, harold, stephan]
+prices = [3.68, 5.50, 6.70, 5.05]
 function addCampbell(){
 shoppingCart.push("Campbell");
     OUTPUT.innerHTML += "Added Campbell to cart<br>";
