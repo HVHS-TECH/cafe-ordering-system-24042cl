@@ -36,8 +36,8 @@ function displayWelcome(campbell, ashley, harold, stephan){
 items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
 function addCampbell(){
-shoppingCart.push("Campbell");
-    OUTPUT.innerHTML += "Added Campbell to cart<br>";
+shoppingCart.push("items[0]");
+    OUTPUT.innerHTML += "Added "<items[0]>" to cart<br>";
 }
 function addAshley(){
 shoppingCart.push("Ashley");
