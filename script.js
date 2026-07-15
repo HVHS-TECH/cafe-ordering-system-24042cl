@@ -51,9 +51,9 @@ function showCart(){
 
     OUTPUT.innerHTML += "Cart Contents:<br>";
 
-    for (let i=0; i < shoppingCart.length / 2; i++){
+    for (let i=0; i < shoppingCart.length; i++){
     OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
- i=i+1; 
+ i=i+1
 }
 }
 
