@@ -131,7 +131,7 @@ if (money >= prices[3]){
 const CHANGE_FIELD = document.getElementById("changeField");
 
 cartTotal()
-if (change>0.0){
+if (change >= 0.0){
  change = money - cartValue;
  OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"
 }
