@@ -9,13 +9,10 @@ console.log("Running t01_javascriptAndHtml.js")
  let money
  let change
  let shoppingCart = [];
-let campbell
-let ashley
-let harold
-let stephan
 let prices = [];
 let items = [];
 let productNumber
+let cartValue
 
 /****************************
 Main code
@@ -56,6 +53,7 @@ function showCart(){
  i=i+1;
 }
 }
+
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
