@@ -53,7 +53,15 @@ function showCart(){
  i=i+1;
 }
 }
+cartValue = 0;
+function cartTotal(){
 
+    OUTPUT.innerHTML += "Total Cost of Items in Cart:<br>";
+
+    for (let i=1; i < shoppingCart.length; i++){
+    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
+ i=i+1;
+}
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
