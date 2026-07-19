@@ -13,6 +13,7 @@ let prices = [];
 let items = [];
 let productNumber
 let cartValue
+let weekDay
 
 /****************************
 Main code
