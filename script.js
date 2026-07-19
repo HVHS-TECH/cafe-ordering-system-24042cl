@@ -127,7 +127,7 @@ else
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
  let choice = Number(WEEK_FIELD.value);
 
- for (int i = 0; i < length; i++) {
+ for (int = 0; i < length; i++) {
         printf("Element %d: %d\n", i, weekDay[i]);
  }
 
