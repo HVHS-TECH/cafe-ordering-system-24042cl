@@ -71,14 +71,14 @@ function getFormInput(){
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 userName = NAME_FIELD.value;
- OUTPUT.innerHTML = "<p> Your name is "+userName+"</p>"
+ OUTPUT.innerHTML = "<p> Name for order: "+userName+"</p>"
 }
 const AGE_FIELD = document.getElementById("ageField");
 if (AGE_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 age = AGE_FIELD.value;
- OUTPUT.innerHTML += "<p> You are "+age+" years old"+"</p>"
+ OUTPUT.innerHTML += "<p> Age of user: "+age+""+"</p>"
 }
  
  const MONEY_FIELD = document.getElementById("moneyField");
