@@ -124,9 +124,10 @@ else
 
  const WEEK_FIELD = document.getElementById("weekField");
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
-
  let choice = Number(WEEK_FIELD.value);
- if (pullRequest.weekDay[0])
+
+ for (int i = 0; i < length; i++) {
+        printf("Element %d: %d\n", i, numbers[i]);
 
 
  if (age < 20){
