@@ -82,15 +82,7 @@ age = AGE_FIELD.value;
 }
  
  const MONEY_FIELD = document.getElementById("moneyField");
-if (MONEY_FIELD.value < 0){
-    OUTPUT.innerHTML += "You can't have negative money!!"
-} else if (MONEY_FIELD.value > 1000){
-    OUTPUT.innerHTML += "You are a millionaire!!"
-} else if (MONEY_FIELD.value == 0){
-    OUTPUT.innerHTML += "You are broke!!"
-} else if (MONEY_FIELD.value == 1000){
-    OUTPUT.innerHTML += "Congrats on being a millionaire!!"
-}
+
 if (MONEY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
