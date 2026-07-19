@@ -95,7 +95,7 @@ if (MONEY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 money = MONEY_FIELD.value;
- OUTPUT.innerHTML += "<p> You have "+money+" dollars"+"</p>"
+ OUTPUT.innerHTML += "<p> Money($) amount: "+money+""+"</p>"
 }
  
 if (money >= prices[0]){
