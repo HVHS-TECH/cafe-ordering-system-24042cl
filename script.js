@@ -121,13 +121,20 @@ if (money >= prices[3]){
 }
 const CHANGE_FIELD = document.getElementById("changeField");
 
-cartTotal()
+cartTotal(){
 if (change >= 0.0){
  change = money - cartValue;
  OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"
 }
 else
-{ OUTPUT.innerHTML += "<p>You don't have enough money to buy these."}
+{ OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."}
+if (change <= 0.0){
+ change = money - cartValue;
+ OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"
+}
+else
+{ OUTPUT.innerHTML += "<p>You have enough money to buy these item(s)."}    
+}
 
  const WEEK_FIELD = document.getElementById("weekField");
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
