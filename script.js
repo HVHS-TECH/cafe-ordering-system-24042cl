@@ -127,7 +127,8 @@ else
  let choice = Number(WEEK_FIELD.value);
 
  for (int i = 0; i < length; i++) {
-        printf("Element %d: %d\n", i, numbers[i]);
+        printf("Element %d: %d\n", i, weekDay[i]);
+ }
 
 
  if (age < 20){
