@@ -123,6 +123,9 @@ else
 
 
  const WEEK_FIELD = document.getElementById("weekField");
+ int weekDay(){
+    int numbers[] = {10, 20, 30, 40, 50};
+ }
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
  let choice = Number(WEEK_FIELD.value);
 
