@@ -74,15 +74,6 @@ userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Your name is "+userName+"</p>"
 }
 const AGE_FIELD = document.getElementById("ageField");
-if (AGE_FIELD.value < 0){
-    OUTPUT.innerHTML = "<p>How are you alive??</p>"
-} else if (AGE_FIELD.value > 100){
-    OUTPUT.innerHTML += "You are probably not alive anymore??"
-} else if (AGE_FIELD.value == 0){
-    OUTPUT.innerHTML += "You are a newborn??"
-} else if (AGE_FIELD.value == 100){
-    OUTPUT.innerHTML += "Congrats on being alive for a century!!"
-}
 if (AGE_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
