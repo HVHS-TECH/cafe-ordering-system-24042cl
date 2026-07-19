@@ -136,7 +136,7 @@ if (change >= 0.0){
  OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"
 }
 else
-{ OUTPUT.innerHTML += "<p>You don't have enough money to buy those"}
+{ OUTPUT.innerHTML += "<p>You don't have enough money to buy these."}
 
  const WEEK_FIELD = document.getElementById("weekField");
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
