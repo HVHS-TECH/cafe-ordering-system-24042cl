@@ -126,6 +126,7 @@ else
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 
  let choice = Number(WEEK_FIELD.value);
+ if (weekDay[0])
 
 
  if (age < 20){
