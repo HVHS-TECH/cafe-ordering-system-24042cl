@@ -14,6 +14,7 @@ let items = [];
 let productNumber
 let cartValue
 
+
 /****************************
 Main code
 ****************************/
