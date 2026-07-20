@@ -11,6 +11,8 @@ console.log("Running t01_javascriptAndHtml.js")
  let shoppingCart = [];
 let prices = [];
 let items = [];
+let choice
+let weekDay = [];
 let productNumber
 let cartValue
 
