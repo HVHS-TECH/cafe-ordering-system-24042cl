@@ -126,8 +126,29 @@ if (change > 0.0){
  const WEEK_FIELD = document.getElementById("weekField");
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
  let choice = Number(WEEK_FIELD.value);
- weekDay.push
  OUTPUT.innerHTML += "<p>You have selected" "as your day of choice."
+
+ function addDay_0(){
+    dayNumber = 0
+weekDay.push(days[dayNumber],choice[dayNumber]);
+    OUTPUT.innerHTML += "You have selected "+choice[dayNumber]+" as your day of choice.";
+}
+
+function addDay_1(){
+    productNumber = 1
+shoppingCart.push(items[productNumber],prices[productNumber]);
+    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
+}
+function addDay_2(){
+    productNumber = 2
+shoppingCart.push(items[productNumber],prices[productNumber]);
+    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
+}
+function addDay_3(){
+    productNumber = 3
+shoppingCart.push(items[productNumber],prices[productNumber]);
+    OUTPUT.innerHTML += "Added "+items[dayNumber]+" to cart<br>";
+}
 
  for (int = 0; i < length; i++) {
         printf("Element %d: %d\n", i, weekDay[i]);
