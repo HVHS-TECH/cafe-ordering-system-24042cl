@@ -126,6 +126,7 @@ if (change > 0.0){
  const WEEK_FIELD = document.getElementById("weekField");
  let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
  let choice = Number(WEEK_FIELD.value);
+ weekDay.push
  OUTPUT.innerHTML += "<p>You have selected" "as your day of choice."
 
  for (int = 0; i < length; i++) {
