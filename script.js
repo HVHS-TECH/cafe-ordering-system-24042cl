@@ -115,7 +115,7 @@ if (money >= prices[3]){
 const CHANGE_FIELD = document.getElementById("changeField");
 
 cartTotal()
-if (money > prices){
+if (money < prices){
  OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
 }
 if (change > 0.0){
