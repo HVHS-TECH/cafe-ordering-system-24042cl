@@ -117,10 +117,10 @@ const CHANGE_FIELD = document.getElementById("changeField");
 cartTotal()
 if (change >= 0.0){
  change = money - cartValue;
- OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"
+ OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
 }
 else
-{ OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."}
+{ OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
 
 
  const WEEK_FIELD = document.getElementById("weekField");
