@@ -126,8 +126,8 @@ if (change > 0.0){
 }
 
  const WEEK_FIELD = document.getElementById("weekField");
- let weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
- let choice = Number(WEEK_FIELD.value);
+ weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+ choice = Number(WEEK_FIELD.value);
  OUTPUT.innerHTML += "<p>You have selected" "as your day of choice."
 
  function addDay_0(){
