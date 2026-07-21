@@ -5,14 +5,12 @@ console.log("Running t01_javascriptAndHtml.js")
 
 //Variables
  let userName
- let age
+ let day
  let money
  let change
  let shoppingCart = [];
 let prices = [];
 let items = [];
-let choice
-let weekDay = [];
 let productNumber
 let cartValue
 
@@ -76,12 +74,12 @@ function getFormInput(){
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
-const AGE_FIELD = document.getElementById("ageField");
-if (AGE_FIELD.checkValidity()=== false)  {
+const DAY_FIELD = document.getElementById("dayField");
+if (DAY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 age = AGE_FIELD.value;
- OUTPUT.innerHTML += "<p> User age: "+age+""+"</p>"
+ OUTPUT.innerHTML += "<p> Day of the week they will show up: "+day+""+"</p>"
 }
  
  const MONEY_FIELD = document.getElementById("moneyField");
