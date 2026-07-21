@@ -123,12 +123,6 @@ if (change > 0.0){
 { OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
 }
 
- const WEEK_FIELD = document.getElementById("weekField");
- weekDay = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
- choice = Number(WEEK_FIELD.value);
- OUTPUT.innerHTML += "<p>You have selected" "as your day of choice."
- }
-
 
  if (age < 20){
     console.log("prolly too young yo")
