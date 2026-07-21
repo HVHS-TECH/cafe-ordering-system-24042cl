@@ -78,7 +78,7 @@ const DAY_FIELD = document.getElementById("dayField");
 if (DAY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
-age = AGE_FIELD.value;
+day = DAY_FIELD.value;
  OUTPUT.innerHTML += "<p> Day of the week they will show up: "+day+""+"</p>"
 }
  
@@ -121,16 +121,5 @@ if (money <= prices){
 if (change > 0.0){
  change = money - cartValue;
 { OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
-}
-
-
- if (age < 20){
-    console.log("prolly too young yo")
-}
-if (age > 20){
-    console.log("unc")
-}
-if (age == 20){
-    console.log("this is good")
 }
 }
