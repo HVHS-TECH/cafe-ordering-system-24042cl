@@ -85,7 +85,7 @@ day = DAY_FIELD.value;
  const MONEY_FIELD = document.getElementById("moneyField");
 
 if (MONEY_FIELD.checkValidity()=== false)  {
-    OUTPUT.innerHTML = "Please fill out the form correctly"
+    OUTPUT.innerHTML = "<p>Please fill out the form correctly</p>"
 }else{
 money = MONEY_FIELD.value;
  OUTPUT.innerHTML += "<p> Money($) amount: "+money+""+"</p>"
