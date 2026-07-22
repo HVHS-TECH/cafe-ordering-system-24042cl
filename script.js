@@ -107,14 +107,15 @@ if (MONEY_FIELD.checkValidity()=== false)  {
 money = MONEY_FIELD.value;
  OUTPUT.innerHTML += "<p> Money($) amount: "+money+""+"</p>"
 }
- 
+ if(shoppingCart){
+    OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
+}
 if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
 }else{
     OUTPUT.innerHTML += "<p>You CAN'T afford Campbell.</p>"
 }
-if(shoppingCart)
-    OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
+
 if (money >= prices[1]){
     OUTPUT.innerHTML += "<p>You CAN afford Ashley.</p>"
 }else{
