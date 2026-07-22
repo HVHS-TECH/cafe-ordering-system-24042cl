@@ -5,7 +5,7 @@ console.log("Running t01_javascriptAndHtml.js")
 
 //Variables
  let userName
- let day
+ let day = [];
  let money
  let change
  let shoppingCart = [];
@@ -78,9 +78,17 @@ userName = NAME_FIELD.value;
 const DAY_FIELD = document.getElementById("dayField");
 
 
+
+
 function addMonday(){
-  day = "Monday";  
+  day = ["Monday"];  
 }
+function addMonday(){
+    day = ("Monday");
+shoppingCart.push(items[productNumber],prices[productNumber]);
+    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
+}
+
 function addTuesday(){
   day = "Tuesday";
 }
