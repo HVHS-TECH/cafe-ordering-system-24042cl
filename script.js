@@ -82,9 +82,8 @@ const DAY_FIELD = document.getElementById("dayField");
 /*
 day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
-function addDay_0(){
-  dayIndex = 0
-  visitDay.push(day[dayIndex])  
+function addMonday(){
+  visitDay.push(day["Monday"])  
 }
 function addProduct_0(){
     productNumber = 0
