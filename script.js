@@ -83,7 +83,21 @@ day = DAY_FIELD.value;
  OUTPUT.innerHTML += "<p> Day of the week they will show up: "+day+""+"</p>"
 }
 */
-if (addMonday)
+function addMonday(){
+  day = "Monday"  
+}
+function addTuesday(){
+  day = "Tuesday"  
+}
+function addWednesday(){
+  day = "Wednesday"  
+}
+function addThursday(){
+  day = "Thursday"  
+}
+function addFriday(){
+  day = "Friday"  
+}
  
  const MONEY_FIELD = document.getElementById("moneyField");
 
@@ -100,6 +114,7 @@ if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN'T afford Campbell.</p>"
 }
 if(shoppingCart)
+    OUTPUT.innerHTML += "<p>You've requested "+ day +" for your visit.</p>"
 if (money >= prices[1]){
     OUTPUT.innerHTML += "<p>You CAN afford Ashley.</p>"
 }else{
