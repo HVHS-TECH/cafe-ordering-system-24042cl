@@ -117,13 +117,17 @@ money = MONEY_FIELD.value;
    const CHANGE_FIELD = document.getElementById("changeField");
 
 cartTotal()
+/*
 if (money <= prices){
  OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
 }
+ */
  change = money - cartValue;
 if (change > 0.0){
 { OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
-}   
+}else{
+OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
+} 
 if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
 }else{
