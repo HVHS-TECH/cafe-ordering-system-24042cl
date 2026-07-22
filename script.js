@@ -106,7 +106,7 @@ if (MONEY_FIELD.checkValidity()=== false)  {
 }else{
 money = MONEY_FIELD.value;
 credit = money;
- OUTPUT.innerHTML += "<p> Avalible credit: $"+credit.toFixed(2)+"</p>"
+ OUTPUT.innerHTML += "<p> Available credit: $"+credit.toFixed(2)+"</p>"
 
 { OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
 
