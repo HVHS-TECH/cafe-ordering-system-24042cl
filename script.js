@@ -57,7 +57,7 @@ function showCart(){
 function cartTotal(){
     cartValue = 0;
 
-    OUTPUT.innerHTML += "Total Cost of Items in Cart:";
+  OUTPUT.innerHTML += "Total Cost of Items in Cart:";
 
   for (let i=1; i < shoppingCart.length; i++){
         cartValue = cartValue + shoppingCart[i]
