@@ -120,7 +120,7 @@ if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN'T afford Campbell.</p>"
 }
 if(shoppingCart)
-    OUTPUT.innerHTML += "<p>You've requested "+ day +" for your visit.</p>"
+    OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
 if (money >= prices[1]){
     OUTPUT.innerHTML += "<p>You CAN afford Ashley.</p>"
 }else{
