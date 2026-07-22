@@ -79,17 +79,12 @@ userName = NAME_FIELD.value;
 
 const DAY_FIELD = document.getElementById("dayField");
 
-/*
 day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
 function addMonday(){
   visitDay.push(day[0]); 
 }
-function addProduct_0(){
-    productNumber = 0
-shoppingCart.push(items[productNumber],prices[productNumber]);
-    OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
-}
+/** 
 
 function addTuesday(){
   day = "Tuesday";
