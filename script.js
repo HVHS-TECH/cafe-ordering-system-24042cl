@@ -74,6 +74,7 @@ function getFormInput(){
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
+/*
 const DAY_FIELD = document.getElementById("dayField");
 if (DAY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
@@ -81,6 +82,7 @@ if (DAY_FIELD.checkValidity()=== false)  {
 day = DAY_FIELD.value;
  OUTPUT.innerHTML += "<p> Day of the week they will show up: "+day+""+"</p>"
 }
+*/
  
  const MONEY_FIELD = document.getElementById("moneyField");
 
