@@ -84,19 +84,19 @@ day = DAY_FIELD.value;
 }
 */
 function addMonday(){
-  day = "Monday"  
+  day = "Monday";  
 }
 function addTuesday(){
-  day = "Tuesday"  
+  day = "Tuesday";
 }
 function addWednesday(){
-  day = "Wednesday"  
+  day = "Wednesday";  
 }
 function addThursday(){
-  day = "Thursday"  
+  day = "Thursday";  
 }
 function addFriday(){
-  day = "Friday"  
+  day = "Friday";  
 }
  
  const MONEY_FIELD = document.getElementById("moneyField");
