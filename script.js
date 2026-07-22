@@ -107,7 +107,7 @@ if (MONEY_FIELD.checkValidity()=== false)  {
 money = MONEY_FIELD.value;
 /*credit = money;
 */
- OUTPUT.innerHTML += "<p>Available credit: $"+money.toFixed(2)+"</p>"
+ OUTPUT.innerHTML += "<p>Available credit: $"+money+"</p>"
 }
  if(shoppingCart){
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
