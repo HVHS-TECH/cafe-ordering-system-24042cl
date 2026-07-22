@@ -109,9 +109,11 @@ money = MONEY_FIELD.value;
 */
  OUTPUT.innerHTML += "<p>Available credit: $"+money+"</p>"
 }
+/*
  if(shoppingCart){
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
 }
+    */
 if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
 }else{
