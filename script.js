@@ -5,7 +5,7 @@ console.log("Running t01_javascriptAndHtml.js")
 
 //Variables
  let userName
- let day = ""
+ let day
  let money
  let change
  let shoppingCart = [];
