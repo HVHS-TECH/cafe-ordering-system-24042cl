@@ -114,6 +114,16 @@ money = MONEY_FIELD.value;
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
 }
     */
+   const CHANGE_FIELD = document.getElementById("changeField");
+
+cartTotal()
+if (money <= prices){
+ OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
+}
+ change = money - cartValue;
+if (change > 0.0){
+{ OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
+}   
 if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
 }else{
@@ -135,14 +145,5 @@ if (money >= prices[3]){
 }else{
     OUTPUT.innerHTML += "<p>You CAN'T afford Stephan.</p>"
 }
-const CHANGE_FIELD = document.getElementById("changeField");
 
-cartTotal()
-if (money <= prices){
- OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
-}
- change = money - cartValue;
-if (change > 0.0){
-{ OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
-}   
 }
