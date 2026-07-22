@@ -79,6 +79,7 @@ if (DAY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 day = DAY_FIELD.value;
+( xyz.v)
  OUTPUT.innerHTML += "<p> Day of the week they will show up: "+day+""+"</p>"
 }
  
