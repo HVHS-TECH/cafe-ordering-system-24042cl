@@ -13,6 +13,8 @@ let prices = [];
 let items = [];
 let productNumber
 let cartValue
+let visitDay = [];
+let dayIndex
 
 
 /****************************
@@ -78,11 +80,11 @@ userName = NAME_FIELD.value;
 const DAY_FIELD = document.getElementById("dayField");
 
 
-
+day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
 function addDay_0(){
-  day = 0
-  shoppingCart.push(day)  
+  dayIndex = 0
+  visitDay.push(day[dayIndex])  
 }
 function addProduct_0(){
     productNumber = 0
