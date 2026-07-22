@@ -79,7 +79,6 @@ if (DAY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "Please fill out the form correctly"
 }else{
 day = DAY_FIELD.value;
-(DAY_FIELD.value = "monday" || DAY_FIELD.value = "tuesday" || DAY_FIELD.value = "wednesday" || DAY_FIELD.value = "thursday" || DAY_FIELD.value = "monday" ||)
  OUTPUT.innerHTML += "<p> Day of the week they will show up: "+day+""+"</p>"
 }
  
