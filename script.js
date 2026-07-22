@@ -80,11 +80,12 @@ const DAY_FIELD = document.getElementById("dayField");
 
 
 
-function addMonday(){
-  day = ["Monday"];  
+function addDay_0(){
+  day = 0
+  shoppingCart.push(day)  
 }
-function addMonday(){
-    day = ("Monday");
+function addProduct_0(){
+    productNumber = 0
 shoppingCart.push(items[productNumber],prices[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
