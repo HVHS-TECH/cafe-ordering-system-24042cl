@@ -105,7 +105,7 @@ if (MONEY_FIELD.checkValidity()=== false)  {
     OUTPUT.innerHTML = "<p>Please fill out the form correctly</p>"
 }else{
 money = MONEY_FIELD.value;
-credit = money
+credit = money;
  OUTPUT.innerHTML += "<p> Avalible credit: $"+credit.toFixed(2)+""+"</p>"
 }
  if(shoppingCart){
