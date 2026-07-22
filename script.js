@@ -137,8 +137,7 @@ if (money <= prices){
  OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
 }else{
  change = money - cartValue;
-if (change > 0.0){
+(change > 0.0)
 { OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
 }   
-}
 }
