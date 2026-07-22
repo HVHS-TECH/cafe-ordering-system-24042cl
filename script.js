@@ -84,7 +84,7 @@ day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 function addMonday(){
   visitDay.push(day[0]); 
 }
-/** 
+/** *
 
 function addTuesday(){
   day = "Tuesday";
@@ -135,9 +135,9 @@ const CHANGE_FIELD = document.getElementById("changeField");
 cartTotal()
 if (money <= prices){
  OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
-}else{
+}
  change = money - cartValue;
-(change > 0.0)
+if (change > 0.0){
 { OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
 }   
 }
