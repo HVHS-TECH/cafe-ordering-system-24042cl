@@ -79,7 +79,7 @@ userName = NAME_FIELD.value;
 
 const DAY_FIELD = document.getElementById("dayField");
 
-
+//
 day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
 function addDay_0(){
