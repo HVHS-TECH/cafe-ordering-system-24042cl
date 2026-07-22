@@ -1,6 +1,4 @@
-/****************************
-Name of task: Validation
-****************************/
+
 console.log("Running t01_javascriptAndHtml.js")
 
 //Variables
