@@ -72,12 +72,6 @@ function getFormInput(){
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Thank you for your order "+userName+"</p>"
 }
-OUTPUT.innerHTML += "<b>Cart Contents:<br>";
-
-    for (let i=0; i < shoppingCart.length; i++){
-    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br><br>";
- i=i+1;
-}
 
 /* FUNCTIONS UNDER DEVELOPMENT
 
@@ -116,7 +110,12 @@ money = MONEY_FIELD.value;
 */
  OUTPUT.innerHTML += "<p>Your available credit is $"+money+"</p>"
 }
+OUTPUT.innerHTML += "<b>Cart Contents:<br>";
 
+    for (let i=0; i < shoppingCart.length; i++){
+    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br><br>";
+ i=i+1;
+}
 /*
  if(shoppingCart){
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
