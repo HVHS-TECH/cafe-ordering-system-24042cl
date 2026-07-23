@@ -78,7 +78,7 @@ userName = NAME_FIELD.value;
 if (items.length === 0){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }*/
-if (cartValue = 0){
+if (){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }
 /*
