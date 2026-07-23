@@ -70,7 +70,7 @@ function getFormInput(){
     if (NAME_FIELD.checkValidity()=== false)  {
 }else{
 userName = NAME_FIELD.value;
- OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
+ OUTPUT.innerHTML = "<p> Thank you for your order "+userName+"</p>"
 }
 OUTPUT.innerHTML += "<b>Cart Contents:<br>";
 
