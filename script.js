@@ -47,7 +47,7 @@ shoppingCart.push(items[productNumber],prices[productNumber]);
 }
 function showCart(){
 
-    OUTPUT.innerHTML += "Cart Contents:<br>";
+    OUTPUT.innerHTML += "<b>Cart Contents:<br>";
 
     for (let i=0; i < shoppingCart.length; i++){
     OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
