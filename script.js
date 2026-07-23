@@ -62,6 +62,9 @@ function cartTotal(){
   for (let i=1; i < shoppingCart.length; i++){
         cartValue = cartValue + shoppingCart[i]
  i=i+1;
+ if (cartValue == 0){
+      OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
+}
 }
  OUTPUT.innerHTML += " $"+cartValue+"<br>";
 }
@@ -77,9 +80,7 @@ userName = NAME_FIELD.value;
 if (items.length === 0){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }*/
-if (cartTotal === 0){
-      OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
-}
+
 /*
 
 const DAY_FIELD = document.getElementById("dayField");
