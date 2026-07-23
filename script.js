@@ -114,7 +114,7 @@ if (MONEY_FIELD.checkValidity()=== false)  {
 money = MONEY_FIELD.value;
 /*credit = money;
 */
- OUTPUT.innerHTML += "<p>Available credit: $"+money+"</p>"
+ OUTPUT.innerHTML += "<p>Your available credit is $"+money+"</p>"
 }
 
 /*
