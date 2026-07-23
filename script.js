@@ -12,7 +12,7 @@ let credit
 
 
 /*
-where the javascrpt is linked to the html
+where the javascrpt links to the html
 */
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /*
@@ -42,7 +42,7 @@ shoppingCart.push(items[productNumber],prices[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 /*
-shows the cart & the total
+shows the cart & its total cost
 */
 function showCart(){
 
@@ -65,7 +65,7 @@ function cartTotal(){
  OUTPUT.innerHTML += " $"+cartValue+"<br>";
 }
 /*
-calculating the chnage for the user
+calculating the change for the user
 */
 function calculateChange(){
     const CHANGE_FIELD = document.getElementById("changeField");
@@ -76,6 +76,9 @@ if (change > 0.0){
 OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
 } 
 }
+/*
+the name for the order
+*/
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
@@ -85,7 +88,7 @@ userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Thank you for your order "+userName+"</p>"
 }
 
-/* FUNCTIONS UNDER DEVELOPMENT
+/* FUNCTIONS UNDER DEVELOPMENT/FAILED CODE
 
 if (items.length === 0){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
@@ -113,6 +116,9 @@ function addFriday(){
   day = "Friday";  
 }
  */
+/*
+checking the value of the money
+*/
  const MONEY_FIELD = document.getElementById("moneyField");
 
 if (MONEY_FIELD.checkValidity()=== false)  {
@@ -124,6 +130,7 @@ money = MONEY_FIELD.value;
 }
 
 /*
+MORE FAILED CODE
  if(shoppingCart){
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
 }
@@ -159,7 +166,7 @@ if (money >= prices[3]){
 }
 }
 /*
-call the functions
+call the functions at after the user places their order
 */
 showCart()
 cartTotal()
