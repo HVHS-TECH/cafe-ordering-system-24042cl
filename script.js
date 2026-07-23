@@ -1,4 +1,4 @@
-//Variables inclu
+//Variables including arrays
  let userName
  let day = [];
  let money
@@ -9,8 +9,6 @@ let items = [];
 let productNumber
 let cartValue
 let credit
-
-
 /*
 where the javascrpt links to the html
 */
@@ -71,7 +69,9 @@ shows the cart & its total cost
 function showCart(){
 
     OUTPUT.innerHTML += "<b>Cart Contents:<br>";
-
+/*
+taking the information from the previous arrays
+*/
     for (let i=0; i < shoppingCart.length; i++){
     OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br><br>";
  i=i+1;
