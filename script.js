@@ -74,7 +74,7 @@ userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
 
-if (items = ["",""]){
+if (items.length === 0){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }
 /** 
