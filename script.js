@@ -75,6 +75,10 @@ userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
 
+if (items = []){
+     OUTPUT.innerHTML = "Please fill out the form correctly"
+}
+
 const DAY_FIELD = document.getElementById("dayField");
 
 day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
