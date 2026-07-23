@@ -85,8 +85,9 @@ form{
     <br><br>
   
     <label for="formName">Credit:</label>
-    <input type = "text" id="moneyField" required name="formName" min="0" max="1000"><br><br>
+    <input type = "text" id="moneyField" pattern="[0-9]+" title="Please enter numbers only" required name="formName" min="0" max="1000"><br><br>
     <label id="changeField">
+
   
     <button onClick="showCart()">Show Cart</button>
 <button onClick="cartTotal()">Show Cart Total</button>
