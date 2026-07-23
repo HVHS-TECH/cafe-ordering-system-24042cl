@@ -1,6 +1,3 @@
-
-console.log("Running t01_javascriptAndHtml.js")
-
 //Variables
  let userName
  let day = [];
@@ -14,13 +11,13 @@ let cartValue
 let credit
 
 
-/****************************
-Main code
-****************************/
+/*
+where the javascrpt is linked to the html
+*/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-/****************************
-Functions for adding 
-****************************/
+/*
+Functions for adding items to the cart
+*/
 items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
 function addProduct_0(){
