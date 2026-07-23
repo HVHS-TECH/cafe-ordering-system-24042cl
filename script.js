@@ -65,7 +65,7 @@ function cartTotal(){
  OUTPUT.innerHTML += " $"+cartValue+"<br>";
 }
 /*
-calculating the change for the user
+calculating the change for the user and whether or not they have enough money to pay for the order
 */
 function calculateChange(){
     const CHANGE_FIELD = document.getElementById("changeField");
