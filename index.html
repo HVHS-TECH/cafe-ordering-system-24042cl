@@ -69,7 +69,7 @@ form{
 **************************************************************-->
   <form onsubmit="return false;">
     <label for="formName">Name:</label>
-    <input type = "text" id="nameField" required name="formName" placeholder="Name">
+    <input type = "text" id="nameField" pattern="[a-zA-Z]+" title="Please enter letters only" required name="formName" placeholder="Name">
 <!--**
   <br><br>
   <label for="formName">Day of the week you wish for them to arive (MAX 1):</label>
