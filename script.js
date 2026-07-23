@@ -64,6 +64,15 @@ function cartTotal(){
 }
  OUTPUT.innerHTML += " $"+cartValue+"<br>";
 }
+function calculateChange(){
+    const CHANGE_FIELD = document.getElementById("changeField");
+ change = money - cartValue;
+if (change > 0.0){
+{ OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
+}else{
+OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
+} 
+}
 
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
@@ -116,19 +125,13 @@ money = MONEY_FIELD.value;
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
 }
     */
-   const CHANGE_FIELD = document.getElementById("changeField");
+   
 
 /*
 if (money <= prices){
  OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
 }
  */
- change = money - cartValue;
-if (change > 0.0){
-{ OUTPUT.innerHTML += "<p>Your change is $"+change.toFixed(2)+"</p>"}
-}else{
-OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
-} 
 if (shoppingCart.length > 0){
 if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
@@ -155,5 +158,7 @@ if (money >= prices[3]){
 /*
 call the functions
 */
-
+showCart()
+cartTotal()
+calculateChange()
 }
