@@ -138,9 +138,7 @@ MORE FAILED CODE
    
 
 /*
-if (money <= prices){
- OUTPUT.innerHTML += "<p>You don't have enough money to buy these item(s)."
-}
+
  
 if (shoppingCart.length > 0){
 if (money >= prices[0]){
