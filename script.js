@@ -19,7 +19,7 @@ Main code
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
-Functions
+Functions for adding 
 ****************************/
 items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
