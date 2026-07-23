@@ -69,14 +69,13 @@ function cartTotal(){
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     if (NAME_FIELD.checkValidity()=== false)  {
-    OUTPUT.innerHTML = "Please enter your name"
 }else{
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
 
-if (items = []){
-     OUTPUT.innerHTML = "Please fill out the form correctly"
+if (items = ["",""]){
+      OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }
 /** 
 const DAY_FIELD = document.getElementById("dayField");
@@ -104,7 +103,6 @@ function addFriday(){
  const MONEY_FIELD = document.getElementById("moneyField");
 
 if (MONEY_FIELD.checkValidity()=== false)  {
-    OUTPUT.innerHTML = "<p>Please enter credit amount</p>"
 }else{
 money = MONEY_FIELD.value;
 /*credit = money;
