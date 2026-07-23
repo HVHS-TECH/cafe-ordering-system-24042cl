@@ -78,15 +78,15 @@ userName = NAME_FIELD.value;
 if (items = []){
      OUTPUT.innerHTML = "Please fill out the form correctly"
 }
-
+/** 
 const DAY_FIELD = document.getElementById("dayField");
+
 
 day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
 function addMonday(){
   visitDay.push(day[0]); 
 }
-/** *
 
 function addTuesday(){
   day = "Tuesday";
