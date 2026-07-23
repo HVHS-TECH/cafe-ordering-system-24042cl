@@ -110,12 +110,7 @@ money = MONEY_FIELD.value;
 */
  OUTPUT.innerHTML += "<p>Your available credit is $"+money+"</p>"
 }
-OUTPUT.innerHTML += "<b>Cart Contents:<br>";
 
-    for (let i=0; i < shoppingCart.length; i++){
-    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br><br>";
- i=i+1;
-}
 /*
  if(shoppingCart){
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
@@ -157,5 +152,8 @@ if (money >= prices[3]){
     OUTPUT.innerHTML += "<p>You CAN'T afford Stephan.</p>"
 }
 }
+/*
+call the functions
+*/
 
 }
