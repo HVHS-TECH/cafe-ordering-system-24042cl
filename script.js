@@ -22,22 +22,34 @@ items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
 function addProduct_0(){
     productNumber = 0
+    /*
+pushes the item into the cart
+*/
 shoppingCart.push(items[productNumber],prices[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 
 function addProduct_1(){
     productNumber = 1
+    /*
+pushes the item into the cart
+*/
 shoppingCart.push(items[productNumber],prices[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_2(){
     productNumber = 2
+    /*
+pushes the item into the cart
+*/
 shoppingCart.push(items[productNumber],prices[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_3(){
     productNumber = 3
+    /*
+pushes the item into the cart
+*/
 shoppingCart.push(items[productNumber],prices[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
@@ -57,7 +69,9 @@ function cartTotal(){
     cartValue = 0;
 
   OUTPUT.innerHTML += "Total Cost of Items in Cart:";
-
+  /*
+loop to give the value of the cart
+*/
   for (let i=1; i < shoppingCart.length; i++){
         cartValue = cartValue + shoppingCart[i]
  i=i+1;
@@ -124,13 +138,14 @@ checking the value of the money
 if (MONEY_FIELD.checkValidity()=== false)  {
 }else{
 money = MONEY_FIELD.value;
-/*credit = money;
-*/
  OUTPUT.innerHTML += "<p>Your available credit is $"+money+"</p>"
 }
-
+showCart()
+cartTotal()
+calculateChange()
+}
 /*
-MORE FAILED CODE
+MORE FAILED/INCOMPLETE CODE
  if(shoppingCart){
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
 }
@@ -166,7 +181,4 @@ if (money >= prices[3]){
 /*
 call the functions at after the user places their order
 */
-showCart()
-cartTotal()
-calculateChange()
-}
+
