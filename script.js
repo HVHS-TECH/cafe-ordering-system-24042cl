@@ -11,7 +11,6 @@ let prices = [];
 let items = [];
 let productNumber
 let cartValue
-let visitDay = [];
 let credit
 
 
@@ -73,7 +72,10 @@ function getFormInput(){
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
-
+if (userName.matches("[a-zA-Z]+")){
+}else{
+    OUTPUT.innerHTML = "<p>Please use letters for your name</p>"
+}
 /* FUNCTIONS UNDER DEVELOPMENT
 
 if (items.length === 0){
@@ -110,6 +112,10 @@ money = MONEY_FIELD.value;
 /*credit = money;
 */
  OUTPUT.innerHTML += "<p>Available credit: $"+money+"</p>"
+}
+if (money.matches("[0-9]+")){
+}else{
+    OUTPUT.innerHTML = "<p>Please use numbers for your credit</p>"
 }
 /*
  if(shoppingCart){
