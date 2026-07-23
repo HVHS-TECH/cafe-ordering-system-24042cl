@@ -72,6 +72,12 @@ function getFormInput(){
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
+OUTPUT.innerHTML += "<b>Cart Contents:<br>";
+
+    for (let i=0; i < shoppingCart.length; i++){
+    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br><br>";
+ i=i+1;
+}
 
 /* FUNCTIONS UNDER DEVELOPMENT
 
