@@ -69,7 +69,7 @@ function cartTotal(){
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     if (NAME_FIELD.checkValidity()=== false)  {
-    OUTPUT.innerHTML = "Please fill out the form correctly"
+    OUTPUT.innerHTML = "Please enter your name"
 }else{
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
@@ -104,7 +104,7 @@ function addFriday(){
  const MONEY_FIELD = document.getElementById("moneyField");
 
 if (MONEY_FIELD.checkValidity()=== false)  {
-    OUTPUT.innerHTML = "<p>Please fill out the form correctly</p>"
+    OUTPUT.innerHTML = "<p>Please enter credit amount</p>"
 }else{
 money = MONEY_FIELD.value;
 /*credit = money;
