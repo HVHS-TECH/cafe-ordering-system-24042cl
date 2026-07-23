@@ -1,4 +1,4 @@
-//Variables
+//Variables inclu
  let userName
  let day = [];
  let money
@@ -16,7 +16,7 @@ where the javascrpt links to the html
 */
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /*
-Functions for adding items to the cart
+Functions for adding items to the cart and the arrays for the items
 */
 items = ["Campbell Turner", "Ashley Bird", "Harold Howard", "Stephan Szabo"]
 prices = [3.68, 5.50, 6.70, 5.05]
@@ -26,6 +26,9 @@ function addProduct_0(){
 pushes the item into the cart
 */
 shoppingCart.push(items[productNumber],prices[productNumber]);
+/*
+the message the user recieves after adding an item to their cart
+*/
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 
@@ -35,6 +38,9 @@ function addProduct_1(){
 pushes the item into the cart
 */
 shoppingCart.push(items[productNumber],prices[productNumber]);
+/*
+the message the user recieves after adding an item to their cart
+*/
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_2(){
@@ -43,6 +49,9 @@ function addProduct_2(){
 pushes the item into the cart
 */
 shoppingCart.push(items[productNumber],prices[productNumber]);
+/*
+the message the user recieves after adding an item to their cart
+*/
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 function addProduct_3(){
@@ -51,6 +60,9 @@ function addProduct_3(){
 pushes the item into the cart
 */
 shoppingCart.push(items[productNumber],prices[productNumber]);
+/*
+the message the user recieves after adding an item to their cart
+*/
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
 /*
@@ -99,9 +111,31 @@ function getFormInput(){
     if (NAME_FIELD.checkValidity()=== false)  {
 }else{
 userName = NAME_FIELD.value;
+/*
+the message the user recieves after inputing their name after pressing submit
+*/
  OUTPUT.innerHTML = "<p> Thank you for your order "+userName+"</p>"
 }
+/*
+checking the value of the money
+*/
+ const MONEY_FIELD = document.getElementById("moneyField");
 
+if (MONEY_FIELD.checkValidity()=== false)  {
+}else{
+money = MONEY_FIELD.value;
+/*
+the message the user recieves after inputing money after pressing submit
+*/
+ OUTPUT.innerHTML += "<p>Your available credit is $"+money+"</p>"
+}
+/*
+call the functions after the user places their order
+*/
+showCart()
+cartTotal()
+calculateChange()
+}
 /* FUNCTIONS UNDER DEVELOPMENT/FAILED CODE
 
 if (items.length === 0){
@@ -129,38 +163,11 @@ function addThursday(){
 function addFriday(){
   day = "Friday";  
 }
- */
-/*
-checking the value of the money
-*/
- const MONEY_FIELD = document.getElementById("moneyField");
 
-if (MONEY_FIELD.checkValidity()=== false)  {
-}else{
-money = MONEY_FIELD.value;
-/*
-what the user recieves after 
-*/
- OUTPUT.innerHTML += "<p>Your available credit is $"+money+"</p>"
-}
-/*
-call the functions after the user places their order
-*/
-showCart()
-cartTotal()
-calculateChange()
-}
-/*
-MORE FAILED/INCOMPLETE CODE
  if(shoppingCart){
     OUTPUT.innerHTML += "<p>You've requested "+visitDay+" for your visit.</p>"
 }
-    */
-   
 
-/*
-
- 
 if (shoppingCart.length > 0){
 if (money >= prices[0]){
     OUTPUT.innerHTML += "<p>You CAN afford Campbell.</p>"
