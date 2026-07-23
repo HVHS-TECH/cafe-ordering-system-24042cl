@@ -41,6 +41,9 @@ function addProduct_3(){
 shoppingCart.push(items[productNumber],prices[productNumber]);
     OUTPUT.innerHTML += "Added "+items[productNumber]+" to cart<br>";
 }
+/*
+shows the cart & the total
+*/
 function showCart(){
 
     OUTPUT.innerHTML += "<b>Cart Contents:<br>";
@@ -61,6 +64,9 @@ function cartTotal(){
 }
  OUTPUT.innerHTML += " $"+cartValue+"<br>";
 }
+/*
+calculating the chnage for the user
+*/
 function calculateChange(){
     const CHANGE_FIELD = document.getElementById("changeField");
  change = money - cartValue;
