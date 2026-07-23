@@ -62,7 +62,7 @@ function cartTotal(){
   for (let i=1; i < shoppingCart.length; i++){
         cartValue = cartValue + shoppingCart[i]
  i=i+1;
- if (cartValue == 0){
+ if ( == 0){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }
 }
