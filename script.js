@@ -138,8 +138,14 @@ checking the value of the money
 if (MONEY_FIELD.checkValidity()=== false)  {
 }else{
 money = MONEY_FIELD.value;
+/*
+what the user recieves after 
+*/
  OUTPUT.innerHTML += "<p>Your available credit is $"+money+"</p>"
 }
+/*
+call the functions after the user places their order
+*/
 showCart()
 cartTotal()
 calculateChange()
@@ -178,7 +184,5 @@ if (money >= prices[3]){
     OUTPUT.innerHTML += "<p>You CAN'T afford Stephan.</p>"
 }
 }
-/*
-call the functions at after the user places their order
 */
 
