@@ -15,9 +15,6 @@
   <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
 </head>
 
-<!--**
-  BODY
-**-->
 <style> 
 .grid-container {
   display: grid;
@@ -101,6 +98,9 @@ adding the item to the cart
 **-->
   <form onsubmit="return false;">
     <label for="formName">Name:</label>
+    <!--**
+  checking that the correct character format is used and that it has characters in the text box
+**-->
     <input type = "text" id="nameField" pattern="[a-zA-Z]+" title="Please enter letters only" required name="formName" placeholder="Name">
 <!--**
 FAILED/INCOMPLETE CODE
@@ -118,6 +118,9 @@ FAILED/INCOMPLETE CODE
     <br><br>
   
     <label for="formName">Credit:</label>
+    <!--**
+  checking that the correct character format is used and that it has characters in the text box
+**-->
     <input type = "text" id="moneyField" pattern="[0-9]+" title="Please enter numbers only" required name="formName" min="0" max="1000" placeholder = "e.g. 15"><br><br>
     <label id="changeField">
 
