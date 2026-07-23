@@ -50,7 +50,7 @@ function showCart(){
     OUTPUT.innerHTML += "<b>Cart Contents:<br>";
 
     for (let i=0; i < shoppingCart.length; i++){
-    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br>";
+    OUTPUT.innerHTML += shoppingCart[i]+": $"+shoppingCart[i+1]+"<br><br>";
  i=i+1;
 }
 }
@@ -73,11 +73,11 @@ function getFormInput(){
 userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
-
+/*
 if (items.length === 0){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }
-/** 
+
 const DAY_FIELD = document.getElementById("dayField");
 
 
