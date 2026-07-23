@@ -74,15 +74,11 @@ userName = NAME_FIELD.value;
  OUTPUT.innerHTML = "<p> Name for Order: "+userName+"</p>"
 }
 
-/*
+/* FUNCTIONS UNDER DEVELOPMENT
+
 if (items.length === 0){
       OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
-}*/
-cartTotal();
-if (cartTotal == 0){
-      OUTPUT.innerHTML = "<p>You haven't added anything to your cart</p>"
 }
-/*
 
 const DAY_FIELD = document.getElementById("dayField");
 
